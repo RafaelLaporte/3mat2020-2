@@ -47,3 +47,27 @@ vetor1.push('jaca');
 let removido5 = vetor1.splice(3, 1);
 
 console.log(vetor1, removido5);
+
+console.log('---------------------------------------------------------------------------------');
+
+//Percorrendo um vetor
+//Forma 1 
+for(let i = 0; i < vetor1.length; i++) {
+    console.log(vetor1[i]);
+}
+
+
+console.log('---------------------------------------------------------------------------------');
+
+//Forma 2
+for(let fruta of vetor1) {
+    console.log(fruta);
+}
+
+
+console.log('---------------------------------------------------------------------------------');
+
+//Forma 3
+vetor1.forEach(fruta => {
+    console.log(fruta);
+});
