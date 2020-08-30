@@ -41,3 +41,5 @@ let j = false;
 
 console.log(i > j);
 console.log(j > i);
+
+console.log("TESTE");
