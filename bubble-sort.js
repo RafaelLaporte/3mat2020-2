@@ -24,16 +24,24 @@ function bubbleSort(lista) {
     console.log({comparacoes, passadas, totalTrocas})
 }
 
-let nums = [58, 16, 33, 82, 4, 47, 25, 71, 96, 60, 41, 89];
+//let nums = [58, 16, 33, 82, 4, 47, 25, 71, 96, 60, 41, 89];
 
-console.time('nums')
-bubbleSort(nums);
-console.timeEnd('nums')
-
-console.log(nums);
+//console.time('nums')
+//bubbleSort(nums);
+//console.timeEnd('nums')
+//console.log(nums);
 
 const empresas = require('./data/15-mil-empresas');
 
-console.time('empresas');
-bubbleSort(empresas);
-console.timeEnd('empresas');
+//console.time('empresas');
+//bubbleSort(empresas);
+//console.timeEnd('empresas');
+
+const nomes = require('./data/100-mil-nomes');
+
+//console.time('nomes');
+//bubbleSort(nomes);
+//console.timeEnd('nomes');
+
+//console.log(nomes);
+
